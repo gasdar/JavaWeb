@@ -1,0 +1,122 @@
+/* Estilos Globales*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+    background-color: #f2f5ff;
+}
+
+h1,
+h2,
+h3{
+    font-family: 'Playfair Display', serif;
+    margin: 0 0 5rem 0;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+/* Utilidades */
+.contenedor{
+    max-width: 135rem;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header-1{
+    background-color: #b1cdee;
+    padding: 6rem 0;
+}
+.header-1 h1{
+    margin: 0;
+}
+
+/* MAIN */
+.main-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 2rem;
+    padding: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax( 56rem, 1fr));
+    margin-bottom: 6rem;
+    
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.main-grid img{
+    margin: 2rem 0;
+}
+
+/* SECTION DE CLASES */
+.section-clases{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 3rem;
+    padding: 2rem;
+    margin-bottom: 6rem;
+}
+
+.cursos-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cursos-info h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+/* SECTION CONCURSANTES */
+.descripcion-concursantes{
+    padding: 0 2rem;
+}
+
+.descripcion-concursantes h2{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.section-concursantes img{
+    padding: 0 10rem;
+    margin: 6rem 0;
+}
+
+/* FOOTER */
+.footer-1{
+    background-color: #b1cdee;
+}
+.footer-1 p{
+    margin: 0;
+    padding: 4rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
